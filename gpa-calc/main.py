@@ -1,4 +1,4 @@
-
+# basic GPA calculator , modifying in the future to include more features
 
 numCourses = int(input("How many courses are you taking? "))
 
