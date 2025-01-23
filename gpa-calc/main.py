@@ -37,6 +37,8 @@ def main():
         count = get_grade_count(grade)
         total_points += count * points
         total_courses += count
+        if total_courses == num_courses:
+            break
 
     if total_courses != num_courses:
         print(f"Warning: The total number of courses entered ({total_courses}) does not match the number of courses you are taking ({num_courses}).")
